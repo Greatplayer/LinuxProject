@@ -35,7 +35,7 @@ systemctl start nfs-idmap
 
 read -p "Agregando la IP origen del backup"
 
-echo $carpeta $ipCompartir $opciones  >> /etc/exports
+echo $carpeta $ipCompartir$opciones>> /etc/exports
 
 read -p "Reiniciando el servicio de compartido"
 exportfs -a
