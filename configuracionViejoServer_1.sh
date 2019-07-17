@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+
 ipDestino=$1
 
 read -p "--------------IP destino ingresado: $1--------------"
