@@ -26,4 +26,8 @@ chmod 777 /HerramientaBera/bera-backup.sh
 read -p "--------------Creando configuracion en base al modelo--------------"
 cp /HerramientaBera/_bera_backup_config_example  /HerramientaBera/_bera_config
 
+read -p "--------------Creando carpeta donde se almacenara el backup--------------"
+mkdir /home/backups/backups
+
 read -p "--------------Configuracion Inicial Terminada--------------"
+
