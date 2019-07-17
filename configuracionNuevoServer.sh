@@ -38,7 +38,7 @@ read -p "Agregando la IP origen del backup"
 echo $carpeta $ipCompartir $opciones  >> /etc/exports
 
 read -p "Reiniciando el servicio de compartido"
-exportsfs -a
+exportfs -a
 systemctl restart nfs-server
 
 read -p "configurando el firewall"
