@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 ipCompartir=$1
 carpeta=/migracionBackupServer
 opciones="(rw,sync,no_root_squash,no_all_squash)"
