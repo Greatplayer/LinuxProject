@@ -17,7 +17,7 @@ git clone https://github.com/oslcixug/bera-backup.git --depth 1 --branch=master 
 
 
 read -p "--------------Descargando software de NFS Utils--------------"
-yum install nfs-utils
+yum -y install nfs-utils
 read -p "--------------Creación de carpeta compartida con permisos--------------"
 mkdir /migracionBackupServer
 chmod -R 755 /migracionBackupServer
