@@ -2,6 +2,12 @@
 
 ipDestino=$1
 
+if [ -z "$ipDestino" ]
+then
+      echo "No ingreso IP"
+      exit
+fi
+
 read -p "--------------IP destino ingresado: $1--------------"
 mkdir /migracionServer
 
