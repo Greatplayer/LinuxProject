@@ -51,3 +51,5 @@ firewall-cmd --reload
 
 read -p "--------------Listar los compartidos--------------"
 exportfs
+
+echo "Final de script: configuracionNuevoServer_1.sh"
