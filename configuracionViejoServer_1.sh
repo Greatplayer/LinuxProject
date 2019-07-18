@@ -41,3 +41,4 @@ mkdir -p /home/backups/backups
 
 read -p "--------------Configuracion Inicial Terminada--------------"
 
+echo "Final de script: configuracionViejoServer_1.sh"
