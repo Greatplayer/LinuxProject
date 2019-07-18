@@ -4,12 +4,6 @@ carpeta=/migracionBackupServer
 opciones="(rw,sync,no_root_squash,no_all_squash)"
 
 read -p "----------------------------IP ingresado: $1--------------"
-
-read -p "----------------------------Creando Archivos de test para demostrar la migracion--------------"
-touch /home/ejem1.txt
-touch /home/ejem2.txt
-
-
 read -p "----------------------------Creando carpeta para hospedar el bera-backup--------------"
 mkdir /HerramientaBera
 read -p "----------------------------Descargandolo del repositorio--------------"
