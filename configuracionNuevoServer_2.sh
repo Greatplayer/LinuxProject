@@ -9,9 +9,9 @@ cp /migracionBackupServer/backup190720.tar /backupRestaura
 chmod 777 /migracionBackupServer/backup190720.tar
 
 read -p "--------------Desempaquetar el archivo tar--------------"
-tar -xvf /migracionBackupServer/backup190720.tar
+tar -xvf /backupRestaura/backup190720.tar
 
 read -p "--------------Copiar la configuracion de restauracion--------------"
-cp /HerramientasBera/_bera_restore_config_example _bera_config
+cp /HerramientaBera/_bera_restore_config_example _bera_config
 
 echo "Final de script: configuracionNuevoServer_2.sh"
