@@ -1,5 +1,12 @@
 #!/bin/bash
 ipCompartir=$1
+
+if [ -z "$ipCompartir" ]
+then
+      echo "No ingreso IP"
+      exit
+fi
+
 carpeta=/migracionBackupServer
 opciones="(rw,sync,no_root_squash,no_all_squash)"
 
