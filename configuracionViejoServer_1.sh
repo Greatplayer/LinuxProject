@@ -20,11 +20,15 @@ chmod 777 /HerramientaBera
 read -p "--------------Descargandolo del repositorio--------------"
 git clone https://github.com/oslcixug/bera-backup.git --depth 1 --branch=master /HerramientaBera
 
+
 read -p "--------------Dandole permisos al script de bera-backup--------------"
 chmod 777 /HerramientaBera/bera-backup.sh
 
 read -p "--------------Creando configuracion en base al modelo--------------"
 cp /HerramientaBera/_bera_backup_config_example  /HerramientaBera/_bera_config
+rm -f /HerramientaBera/_bera_restore_config_example
+rm -f /HerramientaBera/bera-restore.sh
+rm -f /HerramientaBera/backup_download.sh
 
 read -p "--------------Creando carpeta donde se almacenara el backup--------------"
 mkdir -p /home/backups/backups
