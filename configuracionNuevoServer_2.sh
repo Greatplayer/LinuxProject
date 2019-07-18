@@ -13,3 +13,5 @@ tar -xvf /migracionBackupServer/backup190720.tar
 
 read -p "--------------Copiar la configuracion de restauracion--------------"
 cp /HerramientasBera/_bera_restore_config_example _bera_config
+
+echo "Final de script: configuracionNuevoServer_2.sh"
