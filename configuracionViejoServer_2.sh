@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 read -p "----------------------------Empaquetar el backup para la transmision--------------"
