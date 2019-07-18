@@ -11,7 +11,7 @@ chmod 777 /migracionServer
 mount -t nfs $1:/migracionBackupServer /migracionServer
 
 read -p "--------------instalar libreria perl para el backup--------------"
-yum install php-pear
+yum -y install php-pear
 
 read -p "--------------Creando carpeta para hospedar el bera-backup--------------"
 mkdir /HerramientaBera
