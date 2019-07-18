@@ -14,7 +14,9 @@ read -p "----------------------------Creando carpeta para hospedar el bera-backu
 mkdir /HerramientaBera
 read -p "----------------------------Descargandolo del repositorio--------------"
 git clone https://github.com/oslcixug/bera-backup.git --depth 1 --branch=master /HerramientaBera
-
+rm -f /HerramientaBera/_bera_backup_config_example
+rm -f /HerramientaBera/bera-backup.sh
+rm -f /HerramientaBera/backup_download.sh
 
 read -p "--------------Descargando software de NFS Utils--------------"
 yum -y install nfs-utils
