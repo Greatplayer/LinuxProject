@@ -18,7 +18,7 @@ cp /RepositorioInicial/prometheus.service /etc/systemd/system/prometheus.service
 
 read -p "----------------------------Copiar el service en la carpeta--------------"
 #0975 copiar el prometheus.yml en /opt/prometheus/prometheus.yml (ponerlo en directorio de documentos)
-cp /RepositorioInicial/prometheus.yml /opt/prometheus/prometheus.yml
+cp -rf /RepositorioInicial/prometheus.yml /opt/prometheus/prometheus.yml
 
 read -p "----------------------------Iniciar prometheus--------------"
 systemctl start prometheus
