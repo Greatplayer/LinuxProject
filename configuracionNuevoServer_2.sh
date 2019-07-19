@@ -9,7 +9,7 @@ cp /migracionBackupServer/backup190720.tar /backupRestaura
 chmod 777 /migracionBackupServer/backup190720.tar
 
 read -p "--------------Desempaquetar el archivo tar--------------"
-tar -xvf /backupRestaura/backup190720.tar
+tar -xvf /backupRestaura/backup190720.tar -C /home
 
 read -p "--------------Copiar la configuracion de restauracion--------------"
 cp /HerramientaBera/_bera_restore_config_example /HerramientaBera/_bera_config

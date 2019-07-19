@@ -4,7 +4,7 @@ ipDestino=$1
 
 if [ -z "$ipDestino" ]
 then
-      echo "No ingreso IP"
+      echo "No ingreso IP destino"
       exit
 fi
 

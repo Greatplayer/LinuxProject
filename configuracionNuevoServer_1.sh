@@ -3,7 +3,7 @@ ipCompartir=$1
 
 if [ -z "$ipCompartir" ]
 then
-      echo "No ingreso IP"
+      echo "No ingreso IP origen"
       exit
 fi
 
