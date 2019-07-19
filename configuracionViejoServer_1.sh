@@ -8,6 +8,11 @@ then
       exit
 fi
 
+read -p "--------------Crear archivos de prueba--------------"
+touch /home/ejemplo1.txt
+touch /home/ejemplo2.txt
+
+
 read -p "--------------IP destino ingresado: $1--------------"
 mkdir /migracionServer
 
